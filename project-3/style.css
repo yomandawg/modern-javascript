@@ -6,6 +6,13 @@ body {
 .container {
   max-width: 400px;
 }
+.date {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
 .icon {
   position: relative;
   top: -50px;
