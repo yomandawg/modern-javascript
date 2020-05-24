@@ -6,13 +6,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
-  <title>Ninja Chat</title>
+  <title>Chat App</title>
 </head>
 <body>
 
   <!-- container & title -->
   <div class="container my-4">
-    <h1 class="my-4 text-center">Ninja Chat</h1>
+    <h1 class="my-4 text-center">Chat App</h1>
     <!-- buttons for chatrooms -->
     <div class="chat-rooms mb-3 text-center">
       <div class="my-2">Choose a chatroom:</div>
@@ -52,22 +52,10 @@
     </form>
   </div>
   
-  <script src="../key.js"></script>
   <script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-firestore.js"></script>
-  <script>
-    var config = {
-      apiKey: firebaseAPIKey,
-      authDomain: "udemy-modern-javascript-9a742.firebaseapp.com",
-      databaseURL: "https://udemy-modern-javascript-9a742.firebaseio.com",
-      projectId: "udemy-modern-javascript-9a742",
-      storageBucket: "udemy-modern-javascript-9a742.appspot.com",
-      messagingSenderId: "84094913951",
-    };
-    firebase.initializeApp(config);
-    const db = firebase.firestore();
-  </script>
+  <script src="../key.js"></script>
   <script src="scripts/chat.js"></script>
   <script src="scripts/ui.js"></script>
   <script src="scripts/app.js"></script>
