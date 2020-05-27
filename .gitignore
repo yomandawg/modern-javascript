@@ -1,3 +1,5 @@
 .vscode
 key.js
 img
+node_modules
+package-lock.json
